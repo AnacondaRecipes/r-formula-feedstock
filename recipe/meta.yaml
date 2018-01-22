@@ -10,8 +10,8 @@ package:
 source:
   fn: Formula_{{ version }}.tar.gz
   url:
-    - https://cran.r-project.org/src/contrib/Formula_{{ version }}.tar.gz
-    - https://cran.r-project.org/src/contrib/Archive/Formula/Formula_{{ version }}.tar.gz
+    - {{ cran_mirror }}/src/contrib/Formula_{{ version }}.tar.gz
+    - {{ cran_mirror }}/src/contrib/Archive/Formula/Formula_{{ version }}.tar.gz
   sha256: 8def4600fb7457d38db8083733477501b54528974aa216e4adf8871bff4aa429
 
 
